@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  background-color: rgba(56, 65, 82, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.fstline {
+  background-color: rgba(0, 0, 0, 0);
+  color: #606c72;
+}
+.fstline input:nth-child(1) {
+  border-radius: 9px;
+  background-color: #2a3141;
+  padding: 14px;
+  width: 81%;
+  border: none;
+  color: aliceblue;
+  font-size: 18px;
+}
+.fstline input:nth-child(2) {
+  background: #f723c9;
+  background: linear-gradient(to right, #f723c9 40%, #373acf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 9px;
+  width: 12%;
+  border: none;
+  font-size: 18px;
+  margin-left: 9px;
+}
+.tasks {
+  display: flex;
+  flex-direction: column;
+  color: #606c72;
+}
+.task {
+  background-color: rgba(17, 24, 40, 255);
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+.items input {
+  background-color: transparent;
+  border-color: transparent;
+}
+.items input:nth-child(1) {
+  background: #f723c9;
+  background: linear-gradient(to right, #f723c9 40%, #373acf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.items input:nth-child(2) {
+  color: red;
+}
+.inpt{ 
+  background-color: transparent;
+  border: none;
+  color: white;
+}
